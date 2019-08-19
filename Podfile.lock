@@ -1,0 +1,16 @@
+PODS:
+  - QDNetDiagnostics (0.1.1)
+
+DEPENDENCIES:
+  - QDNetDiagnostics
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - QDNetDiagnostics
+
+SPEC CHECKSUMS:
+  QDNetDiagnostics: 5c61fcfdc26eeb4d510cba7922d7a2c73e004aec
+
+PODFILE CHECKSUM: 85fffc5e12d044d359563f94966dcc42846731f4
+
+COCOAPODS: 1.6.1

@@ -14,9 +14,14 @@
 		21A5AC7E22F95CE3002E8C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A5AC7D22F95CE3002E8C8C /* Assets.xcassets */; };
 		21A5AC8122F95CE3002E8C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A5AC7F22F95CE3002E8C8C /* LaunchScreen.storyboard */; };
 		21A5AC8422F95CE3002E8C8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A5AC8322F95CE3002E8C8C /* main.m */; };
+		21A5AC8C22F961DD002E8C8C /* PingSourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A5AC8B22F961DD002E8C8C /* PingSourceModel.m */; };
+		21B995B022FA75BB00C364AB /* STDPingServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B995AE22FA75BB00C364AB /* STDPingServices.m */; };
+		21B995B322FA763F00C364AB /* STSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B995B222FA763F00C364AB /* STSimplePing.m */; };
+		C9B7A2F0DBD120147D34133B /* libPods-SSRPing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4651837DFD0F10B00F2F11E /* libPods-SSRPing.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19C8EE4009EA1DD7FA1886F3 /* Pods-SSRPing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSRPing.release.xcconfig"; path = "Target Support Files/Pods-SSRPing/Pods-SSRPing.release.xcconfig"; sourceTree = "<group>"; };
 		21A5AC6E22F95CE3002E8C8C /* SSRPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSRPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A5AC7122F95CE3002E8C8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21A5AC7222F95CE3002E8C8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +33,14 @@
 		21A5AC8022F95CE3002E8C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21A5AC8222F95CE3002E8C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21A5AC8322F95CE3002E8C8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21A5AC8A22F961DD002E8C8C /* PingSourceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PingSourceModel.h; sourceTree = "<group>"; };
+		21A5AC8B22F961DD002E8C8C /* PingSourceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingSourceModel.m; sourceTree = "<group>"; };
+		21B995AE22FA75BB00C364AB /* STDPingServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDPingServices.m; sourceTree = "<group>"; };
+		21B995AF22FA75BB00C364AB /* STDPingServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDPingServices.h; sourceTree = "<group>"; };
+		21B995B122FA763E00C364AB /* STSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSimplePing.h; sourceTree = "<group>"; };
+		21B995B222FA763F00C364AB /* STSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSimplePing.m; sourceTree = "<group>"; };
+		D61F70FD5337E56AE1C671BF /* Pods-SSRPing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSRPing.debug.xcconfig"; path = "Target Support Files/Pods-SSRPing/Pods-SSRPing.debug.xcconfig"; sourceTree = "<group>"; };
+		F4651837DFD0F10B00F2F11E /* libPods-SSRPing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSRPing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B7A2F0DBD120147D34133B /* libPods-SSRPing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +60,8 @@
 			children = (
 				21A5AC7022F95CE3002E8C8C /* SSRPing */,
 				21A5AC6F22F95CE3002E8C8C /* Products */,
+				38A77270DE54ECCADDAF3AA9 /* Pods */,
+				FF1F1CE32A6AE1E85FE2F544 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,12 @@
 				21A5AC7222F95CE3002E8C8C /* AppDelegate.m */,
 				21A5AC7422F95CE3002E8C8C /* ViewController.h */,
 				21A5AC7522F95CE3002E8C8C /* ViewController.m */,
+				21A5AC8A22F961DD002E8C8C /* PingSourceModel.h */,
+				21A5AC8B22F961DD002E8C8C /* PingSourceModel.m */,
+				21B995AF22FA75BB00C364AB /* STDPingServices.h */,
+				21B995AE22FA75BB00C364AB /* STDPingServices.m */,
+				21B995B122FA763E00C364AB /* STSimplePing.h */,
+				21B995B222FA763F00C364AB /* STSimplePing.m */,
 				21A5AC7722F95CE3002E8C8C /* Main.storyboard */,
 				21A5AC7D22F95CE3002E8C8C /* Assets.xcassets */,
 				21A5AC7F22F95CE3002E8C8C /* LaunchScreen.storyboard */,
@@ -74,6 +96,23 @@
 			path = SSRPing;
 			sourceTree = "<group>";
 		};
+		38A77270DE54ECCADDAF3AA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D61F70FD5337E56AE1C671BF /* Pods-SSRPing.debug.xcconfig */,
+				19C8EE4009EA1DD7FA1886F3 /* Pods-SSRPing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF1F1CE32A6AE1E85FE2F544 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4651837DFD0F10B00F2F11E /* libPods-SSRPing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,6 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21A5AC8722F95CE3002E8C8C /* Build configuration list for PBXNativeTarget "SSRPing" */;
 			buildPhases = (
+				13CD0E79F6F927E6A7A5FF25 /* [CP] Check Pods Manifest.lock */,
 				21A5AC6A22F95CE3002E8C8C /* Sources */,
 				21A5AC6B22F95CE3002E8C8C /* Frameworks */,
 				21A5AC6C22F95CE3002E8C8C /* Resources */,
@@ -139,15 +179,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13CD0E79F6F927E6A7A5FF25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSRPing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21A5AC6A22F95CE3002E8C8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B995B322FA763F00C364AB /* STSimplePing.m in Sources */,
 				21A5AC7622F95CE3002E8C8C /* ViewController.m in Sources */,
 				21A5AC7C22F95CE3002E8C8C /* SSRPing.xcdatamodeld in Sources */,
 				21A5AC8422F95CE3002E8C8C /* main.m in Sources */,
+				21A5AC8C22F961DD002E8C8C /* PingSourceModel.m in Sources */,
 				21A5AC7322F95CE3002E8C8C /* AppDelegate.m in Sources */,
+				21B995B022FA75BB00C364AB /* STDPingServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +355,13 @@
 		};
 		21A5AC8822F95CE3002E8C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61F70FD5337E56AE1C671BF /* Pods-SSRPing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TM6D7482ZM;
 				INFOPLIST_FILE = SSRPing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +374,13 @@
 		};
 		21A5AC8922F95CE3002E8C8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C8EE4009EA1DD7FA1886F3 /* Pods-SSRPing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TM6D7482ZM;
 				INFOPLIST_FILE = SSRPing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

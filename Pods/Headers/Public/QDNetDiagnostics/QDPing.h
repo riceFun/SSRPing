@@ -1,0 +1,1 @@
+../../../QDNetDiagnostics/QDNetDiagnostics/Classes/QDPing.h
